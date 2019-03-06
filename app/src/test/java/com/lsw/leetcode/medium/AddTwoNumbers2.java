@@ -10,7 +10,7 @@ import org.junit.Test;
  */
 public class AddTwoNumbers2 {
     @Test
-    public void testTwoSum(){
+    public void test(){
         ListNode listNode10 = new ListNode(2);
         ListNode listNode11 = new ListNode(4);
         ListNode listNode12 = new ListNode(3);

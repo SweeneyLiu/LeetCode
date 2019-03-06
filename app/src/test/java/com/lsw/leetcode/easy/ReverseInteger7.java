@@ -7,7 +7,7 @@ import org.junit.Test;
  */
 public class ReverseInteger7 {
     @Test
-    public void testReverseInteger(){
+    public void test(){
         System.out.println(reverse(123));
     }
 

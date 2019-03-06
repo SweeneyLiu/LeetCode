@@ -7,7 +7,7 @@ import org.junit.Test;
  */
 public class PalindromeNumber9 {
     @Test
-    public void testReverseInteger(){
+    public void test(){
         System.out.println(isPalindrome(121));
     }
 

@@ -8,7 +8,7 @@ import org.junit.Test;
 public class RomanToInteger13 {
 
     @Test
-    public void testReverseInteger(){
+    public void test(){
         System.out.println(romanToInt("MCMXCIV"));
     }
 

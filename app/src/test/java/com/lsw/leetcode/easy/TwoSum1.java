@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class TwoSum1 {
     @Test
-    public void testTwoSum(){
+    public void test(){
         System.out.println(Arrays.toString(twoSum(new int[]{3,5,4},7)));
     }
 
