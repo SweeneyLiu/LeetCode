@@ -1,4 +1,4 @@
-package com.lsw.leetcode;
+package com.lsw.leetcode.medium;
 
 import org.junit.Test;
 
