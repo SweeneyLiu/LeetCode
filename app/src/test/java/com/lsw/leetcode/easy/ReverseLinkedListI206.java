@@ -26,19 +26,36 @@ public class ReverseLinkedListI206 {
     }
 
     public ListNode reverseList(ListNode head) {
-        if(head == null) return null;
+//        if(head == null) return null;
+//        ListNode pre = null;
+//        ListNode cur = head;
+//        ListNode next = head.next;
+//        while(cur != null){
+//            cur.next = pre;
+//            pre = cur;
+//            cur = next;
+//            if(cur != null){
+//                next = cur.next;
+//            }
+//        }
+//        return pre;
+
+        if(head == null){
+            return null;
+        }
+
         ListNode pre = null;
         ListNode cur = head;
-        ListNode next = head.next;
+        ListNode tmpNode = null;
+
         while(cur != null){
+            tmpNode = cur.next;
             cur.next = pre;
             pre = cur;
-            cur = next;
-            if(cur != null){
-                next = cur.next;
-            }
+            cur = tmpNode;
         }
         return pre;
+
     }
 
     class ListNode {
