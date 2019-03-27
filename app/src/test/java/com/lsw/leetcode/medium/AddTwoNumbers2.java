@@ -53,8 +53,8 @@ public class AddTwoNumbers2 {
             sum /=10;
             cur = cur.next;
         }
-        if(sum == 1){
-            cur.next = new ListNode(1);
+        if(sum > 0){
+            cur.next = new ListNode(sum);
         }
         return listNode.next;
     }
